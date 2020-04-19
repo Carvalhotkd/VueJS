@@ -10,6 +10,7 @@
     <div id="app">
         <p>Curso: {{ curso }}</p>
         <a v-bind:href="docs">VueJS</a>
+        <p>Instrutor: <span v-text="instrutor"></span></p>
     </div>
     <script type="text/javascript">
 
@@ -17,7 +18,8 @@
             el: '#app',
             data: {
                 curso: 'VueJS',
-                docs: 'https://br.vuejs.org/'
+                docs: 'https://br.vuejs.org/',
+                instrutor: 'Felipe Carvalho'
             }
         });
     </script>
