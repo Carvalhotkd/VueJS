@@ -1,0 +1,15 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="desafio">
+    <!-- Exibir em "resultado" o texto 'Valor Diferente' enquanto "valor" for diferente de 37.
+    Mostar 'Valor Igual' quando "valor" for igual a 37 -->
+    <!-- Monitorar as mudanças de "resultado" e reiniciar "valor" para depois de 5 segundos 
+        (dica: setTimeout(...),5000) -->
+    <div>
+        <p>Valor atual: {{ valor }}</p>
+        <button @click="valor += 5">Somar 5</button>
+        <button @click="valor += 1"> somar 1</button>
+        <p>{{ resultado }}</p>
+    </div>
+</div>
+<script src="app.js"></script>
