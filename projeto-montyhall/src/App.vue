@@ -11,7 +11,7 @@
             <input type="text" id="selectedPort" size="3" v-model.number="selectedPort">
         </div>
         <button v-if="!started" @click="started = true">Iniciar</button>
-        <button v-if="started" @click="started = true">Reiniciar</button>
+        <button v-if="started" @click="started = false">Reiniciar</button>
     </div>
     <div class="doors" v-if="started">
         <div v-for="i in portsAmount" :key="i">
