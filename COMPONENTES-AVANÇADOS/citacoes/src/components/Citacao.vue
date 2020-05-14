@@ -20,6 +20,6 @@ export default {
         max-width: 450px;
     }
     h1{
-        color: green;
+        /* color: green; */
     }
 </style>

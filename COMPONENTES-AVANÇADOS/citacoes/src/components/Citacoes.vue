@@ -55,6 +55,6 @@ export default {
   align-items: center;
 }
 h1{
-    color: red!important;
+    /* color: red!important; */
 }
 </style>
