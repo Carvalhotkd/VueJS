@@ -54,7 +54,4 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-h1{
-    /* color: red!important; */
-}
 </style>
