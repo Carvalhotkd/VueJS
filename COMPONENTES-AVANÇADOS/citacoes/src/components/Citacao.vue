@@ -17,6 +17,5 @@ export default {
         border: 1px solid #DDD;
         background-color: rgba(0, 0, 0, .1);
         padding: 25px;
-        max-width: 450px;
-    }
+        max-width: 450px;    }
 </style>
